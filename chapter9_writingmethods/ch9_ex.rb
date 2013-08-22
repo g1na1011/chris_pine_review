@@ -19,3 +19,5 @@ likes_it = ask("Do you smell?")
 puts likes_it
 
 # Old-school Roman numerals
+def old_school_roman
+end
