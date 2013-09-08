@@ -6,13 +6,13 @@ while i >= 1
     puts "Take one down and pass it around, no more bottles of beer on the wall."
     puts ""
   elsif i == 0
-  	puts "No more bottles of beer on the wall, no more bottles of beer."
-  	puts "Go to the store and buy some more, 99 bottles of beer on the wall."    
-  	break
+    puts "No more bottles of beer on the wall, no more bottles of beer."
+    puts "Go to the store and buy some more, 99 bottles of beer on the wall."    
+    break
   else
     puts "#{i.to_s} bottles of beer on the wall, #{i.to_s} bottles of beer."
     puts "Take one down and pass it around, #{(i - 1).to_s} bottles of beer on the wall."
-    puts ""	
+    puts "" 
   end
   i -= 1
 end
@@ -25,7 +25,7 @@ while something_to_grandma != "BYE"
   if something_to_grandma == "BYE"
     break 
   elsif something_to_grandma == something_to_grandma.upcase
-    puts "NO, NOT SINCE #{(rand(1930..1950)).to_s}!"  	
+    puts "NO, NOT SINCE #{(rand(1930..1950)).to_s}!"    
   else
     puts "HUH?! SPEAK UP, SONNY!"
   end
@@ -39,7 +39,7 @@ while something_to_grandma != "BYE, BYE, BYE"
   if something_to_grandma == "BYE, BYE, BYE"
     break 
   elsif something_to_grandma == something_to_grandma.upcase
-    puts "NO, NOT SINCE #{(rand(1930..1950)).to_s}!"  	
+    puts "NO, NOT SINCE #{(rand(1930..1950)).to_s}!"    
   else
     puts "HUH?! SPEAK UP, SONNY!"
   end
@@ -56,8 +56,8 @@ puts ""
 i = start_yr
 while i <= end_yr
   if i % 4 == 0 
-  	if i % 100 != 0 || i % 400 == 0
-  	  puts i.to_s
+    if i % 100 != 0 || i % 400 == 0
+      puts i.to_s
     end
   end 
   i += 1

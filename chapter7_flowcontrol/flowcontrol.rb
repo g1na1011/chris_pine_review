@@ -49,9 +49,9 @@ else
   puts "Don't you know how to spell your name?"
   reply = gets.chomp
   if reply.downcase == "yes"
-  	puts "Hmmph! Well, sit down!"
+    puts "Hmmph! Well, sit down!"
   else
-  	puts "GET OUT!"
+    puts "GET OUT!"
   end
 end
 
@@ -97,6 +97,6 @@ while true
   puts "Emma #{request}, too."
 
   if request == "stop"
-  	break
+    break
   end
 end

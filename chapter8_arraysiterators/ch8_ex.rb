@@ -6,7 +6,7 @@ while true
   word = gets.chomp
   words_array.push(word)
   if word.empty?
-  	break
+    break
   end
 end
 
@@ -24,3 +24,4 @@ tableofcontents = [
 tableofcontents.each do |ch, title, page|
   puts "Chapter #{ch}: #{title}".ljust(30) + "page ".rjust(20) + "#{page}"
 end
+
